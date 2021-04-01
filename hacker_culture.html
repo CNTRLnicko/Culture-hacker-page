@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="hack.css" rel="stylesheet" type="text/css">
+    <title>Hacker Culture</title>
+</head>
+<body >
+    <header>
+        <a href="#" class="logo">MORE ABOUT</a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">What is</a></li>
+            <li><a href="#definition">Definition</a></li>
+            <li><a href="#developers">nikto_rijndael</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2 class="hacker">The hacker culture</h2>
+            <p>Know more about this culture</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletext">What is</h2>
+                <p>The hacker culture is a subculture of individuals who enjoy the intellectual challenge of creatively overcoming limitations of software systems to achieve novel and clever outcomes. The act of engaging in activities (such as programming or other media) in a spirit of playfulness and exploration is termed "hacking." However, the defining characteristic of a hacker is not the activities performed themselves (e.g. programming), but how it is done and whether it is exciting and meaningful. This culture began back in the 1960s at MIT, where students banded together to release information on the internet they thought should be public information. Often referred to as "computer-science freaks".</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="imagens/luca-bravo-9l_326FISzk-unsplash.jpg" alt="" width=100%>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="definition" id="definition">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletext">Definition</h2>
+                <p>The term hacker was first coined in the fourteenth century, as a term for someone who did not have a lot of knowledge in something. The Jargon File, an influential but not universally accepted compendium of hacker slang, defines hacker as "A person who enjoys exploring the details of programmable systems and stretching their capabilities, as opposed to most users, who prefer to learn only the minimum necessary". The Request for Comments (RFC) 1392, the Internet Users' Glossary, amplifies this meaning as "A person who delights in having an intimate understanding of the internal workings of a system, computers and computer networks in particular".</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="imagens/hacked-em-fundo-preto-e-branco_88188-293.jpg" alt="" width=100%>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nikto_rijndael" id="nikto_rijndael">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletext">_me</h2>
+                <p>nikto_rijndael is my alias to surf on the web anonymously.I'm a student of computer science and at the same time prodigy on the subject of cybersecurity</p>
+            </div>
+            <div class="col50">
+                <div class="imgBxme">
+                    <img src="imagens/eu.jpg" alt="" width=100%>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header')
+            header.classList.toggle('sticky', window.scrollY > 0)
+        });
+    
+    </script>
+</body>
+</html>
